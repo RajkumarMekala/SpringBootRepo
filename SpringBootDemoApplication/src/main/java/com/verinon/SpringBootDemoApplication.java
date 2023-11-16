@@ -9,8 +9,9 @@ public class SpringBootDemoApplication {
 	public static void main(String[] args) {
 		int a = 10, b = 20;
 		int c = a + b;
+		System.out.println(" addition"  + c);
 		SpringApplication.run(SpringBootDemoApplication.class, args);
-		System.out.println("Demo Branch Testing....!" + c);
+		System.out.println("Demo Branch Testing....!");
 	}
 
 }

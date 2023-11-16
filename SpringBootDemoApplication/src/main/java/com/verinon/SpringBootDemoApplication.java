@@ -10,6 +10,8 @@ public class SpringBootDemoApplication {
 		int a = 10, b = 20;
 		int c = a + b;
 		System.out.println(" addition"  + c);
+		int d=a*b;
+		System.out.println(" multiplication:"  + d);
 		SpringApplication.run(SpringBootDemoApplication.class, args);
 		System.out.println("Demo Branch Testing....!");
 	}
